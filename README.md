@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/faq-accordion-isZbFB4nQh)
+- [Live Site](https://zxjklp.github.io/faq-accordion/)
 
 ## My process
 
