@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+/* Font face declarations for Work Sans variable font */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../fonts/WorkSans-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
 
 /* Reset */
 *,
@@ -9,9 +24,9 @@
   padding: 0;
 }
 
-/* Variables - Updated to match style guide */
+/* Variables */
 :root {
-  /* Colors from style guide */
+  /* Colors */
   --color-white: hsl(0, 0%, 100%);
   --color-light-pink: hsl(275, 100%, 97%);
   --color-grayish-purple: hsl(292, 16%, 49%);
@@ -19,7 +34,7 @@
 
   /* Typography */
   --font-family: 'Work Sans', sans-serif;
-  --font-size-body: 16px;
+  --font-size-body: 1rem;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
